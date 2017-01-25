@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?
-A: <INSERT HERE>
-
+A: Naked twins are defined as two squares in the same unit that contains the same numbers eg: A1:23, A2:23. There is certainly cent percent chance that these two numbers will go either A1 or A2 (not sure which number is where) and zero percent chace that these numbers will go into the other squares in the unit. So we can eliminate these numbers from other squares in the unit. These updates to other sqaures in the unit will cause further updates to its peers, and the peers of those peers, and so on. This is how we can solve the Naked twins problem and complete to solve the sudoku problem.
+ 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?
-A: 
+A: In the diagonal sudoku problem, I have just added another constriant such as diagonal units to the unitlists. The nuber of peers are increased for the diagonal squares which will help to add another contraint while solving the sudoku problem. All the remaining constraints and programs are same as the normal sudoku.
 ### Install
 
 This project requires **Python 3**.
