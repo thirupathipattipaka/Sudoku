@@ -7,7 +7,7 @@ A: <INSERT HERE>
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?
-
+A: 
 ### Install
 
 This project requires **Python 3**.
